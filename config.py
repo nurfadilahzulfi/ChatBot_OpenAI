@@ -1,0 +1,1 @@
+API_KEY="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"
