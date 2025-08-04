@@ -62,27 +62,6 @@ pip install -r requirements.txt
 
 Buat file `.env` di root directory:
 
-```bash
-# OpenAI API Configuration
-OPENAI_API_KEY=your_openai_api_key_here
-
-# Vector Store Configuration
-VECTOR_STORE_TYPE=chroma  # options: chroma, faiss
-PERSIST_DIRECTORY=./data/vectorstore
-
-# Embedding Model
-EMBEDDING_MODEL=text-embedding-ada-002
-
-# Chat Model
-CHAT_MODEL=gpt-3.5-turbo
-
-# Chunk Configuration
-CHUNK_SIZE=1000
-CHUNK_OVERLAP=200
-
-# Retrieval Configuration
-RETRIEVAL_K=4
-```
 
 ### 4. Setup Directory Structure
 
